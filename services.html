@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Maison ECAL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="About.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<style>
+    /* Réinitialiser certains styles par défaut */
+    body,
+    ul {
+        margin: 0;
+        padding: 5px;
+        list-style: none;
+    }
+
+    /* Styles de l'en-tête */
+    header {
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #63c0f9;
+        color: #fff;
+        z-index: 1000; /* Assurez-vous que le z-index soit supérieur à celui du reste du contenu */
+        padding: 10px;
+    }
+
+    .logo-img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    .group {
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+
+    .links-text {
+        text-decoration: none;
+        color: #fff;
+        margin-right: 20px;
+        transition: color 0.3s ease;
+    }
+
+    .links-text:hover {
+        color: #FF5733;
+    }
+
+    /* Styles de la section de pied de page */
+    .first-footer {
+        background-color: #0f7276;
+        /* Couleur de fond du pied de page */
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .link-partner {
+        margin-top: 5px; /* Réduire l'espace en haut */
+        margin-bottom: 5px; /* Réduire l'espace en bas */
+    }
+
+    .title2,
+    .title3,
+    .title4 {
+        margin-top: 5px; /* Ajouter un espace en haut pour les titres */
+    }
+
+    .list-links {
+        list-style: none;
+        font-size: 18px;
+    }
+
+    .location-logo {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
+
+    /* Styles des icônes des réseaux sociaux */
+    .logos {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .logos img {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
+    }
+
+    .instagram,
+    .twitter {
+        filter: invert(1);
+        /* Inverser les couleurs des icônes (icônes blanches sur fond sombre) */
+        transition: filter 0.3s ease;
+    }
+
+    .instagram:hover,
+    .twitter:hover {
+        filter: invert(0);
+        /* Revenir aux couleurs originales au survol */
+    }
+
+    .logo-img {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .logo-text {
+        font-size: 18px;
+        margin-left: 10px;
+        font-weight: bold;
+    }
+
+    .location-logo {
+        width: 24px;
+        /* Ajuster si nécessaire */
+        height: auto;
+        margin-right: 5px;
+    }
+
+    /* Styles pour le texte "Maison ECAL" */
+    .logo-text {
+        font-size: 15px;
+        /* Augmenter la taille de la police */
+        font-weight: bold;
+        /* Supprimer la propriété d'animation */
+        opacity: 1;
+        /* Assurez-vous que le texte est toujours visible */
+        transform: translateY(0);
+        /* Assurez-vous que le texte ne se déplace pas après l'animation */
+    }
+
+    /* Personnaliser la famille de polices et d'autres propriétés de la police */
+    .logo-text {
+        font-family: "Helvetica Neue", sans-serif;
+        /* Utiliser la famille de polices de votre choix */
+        color: #fff;
+        /* Couleur du texte */
+        text-transform: uppercase;
+        /* Convertir le texte en majuscules */
+        letter-spacing: 2px;
+        /* Ajuster l'espacement des lettres pour une meilleure lisibilité */
+    }
+
+    .instagram-text,
+    .twitter-text {
+        color: white;
+        text-decoration: none;
+        margin-right: 5px;
+    }
+
+    .images-footer {
+        width: 100px;
+        height: auto;
+    }
+
+    .footer-images {
+        margin-left: 20px;
+        /* Réduire la marge à gauche */
+        margin-right: 20px;
+        /* Réduire la marge à droite */
+    }
+</style>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="photo/logo1.jpg" alt="Maison ECAL" class="logo-img"></a>
+            <span class="logo-text">Maison ECAL&Divers</span>
+        </div>
+        <div class="group">
+            <ul class="navigation">
+                <li><a href="home.html" class="links-text">Accueil</a></li>
+                <li><a href="EngAbout.html" class="links-text">À Propos</a></li>
+                <li><a href="services.html" class="links-text">Nos Services</a></li>
+                <li><a href="Events.html" class="links-text">Événements</a></li>
+                <li><a href="portfolio.html" class="links-text">Portfolio</a></li>
+                <li><a href="gallery.html" class="links-text">Galerie</a></li>
+                <li><a href="contact.html" class="links-text">Contactez-Nous</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="services-container">
+        <h1>Nos Services</h1>
+        <div class="services-box"></div>
+        <p>Sous la direction experte de M. Ghislain Kisamba Shabani, Maison ECAL et Divers excelle dans les opérations logistiques.</p>
+        <p>Nous nous engageons à fournir des solutions innovantes en gestion des commandes et en transport, en mettant en avant notre fierté dans notre expertise dans ce domaine.</p>
+        <p>La logistique est véritablement au cœur de notre entreprise, et nous nous efforçons continuellement d'assurer un soutien logistique fluide et hautement efficace dans une multitude de tâches et de responsabilités dans ce domaine.</p>
+        <p>Chez Maison ECAL, nous nous positionnons comme votre partenaire de confiance pour la gestion des stocks et la coordination de la chaîne d'approvisionnement tout en gérant diverses activités logistiques essentielles.</p>
+        <p>Notre engagement ultime est de garantir que chaque client soit pleinement satisfait de nos services, en mettant l'accent sur notre expertise, notre dévouement et notre quête constante de qualité.</p>
+    </div>
+
+    <div class="mtn">
+        <a href="EngServices.html" class="more-info-link" style="font-family: 'Gabriola', cursive; font-size: 24px; color: #000;">Read in English</a>
+    </div>
+    <!-- Section du pied de page -->
+    <div class="first-footer">
+        <div class="footer-images">
+            <a href="EngServices.html">
+                <img src="photo/logo1.jpg" class="images-footer" alt="Image de pied de page"></a>
+        </div>
+        <div class="footer-container">
+            <div class="link-partner">
+                <h3 class="title2">Infos Contact</h3>
+                <li class="list-links">(+243)814626370</li>
+                <li class="list-links">(+243)997568776</li>
+            </div>
+            <div class="link-partner">
+                <h3 class="title3">
+                    <img src="photo/location.png" class="location-logo">
+                    <span class="location">Localisation</span>
+                </h3>
+                <li class="list-links">Goma</li>
+                <li class="list-links">Bukavu</li>
+                <li class="list-links">Kalemie</li>
+            </div>
+            <div class="link-partner">
+                <h3 class="title4">Réseaux Sociaux</h3>
+                <div class="logos">
+                    <li class="list-links">
+                        <img src="photo/instagram.png" class="instagram" />
+                        <a href="https://instagram.com/maison.ecal12?igshid=MzMyNGUyNmU2YQ==" target="_blank">
+                            <span class="instagram-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li class="list-links">
+                        <img src="photo/twitter-remover.png" class="twitter" />
+                        <a href="https://twitter.com/MaisonEcal?t=djST5JaWdC1vj1T97qX2gg&s=09" target="_blank">
+                            <span class="twitter-text">Twitter</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; Conçu par Sharo&Tcha-Vei</p>
+        <!-- Ajouter des liens vers les profils de réseaux sociaux, etc. ici -->
+    </footer>
+
+    <script>
+        // Fonction pour déclencher les animations des paragraphes
+        function animateParagraphs() {
+            const paragraphs = document.querySelectorAll('.services-container p');
+
+            paragraphs.forEach((paragraph, index) => {
+                setTimeout(() => {
+                    paragraph.classList.add('animate');
+                }, index * 2000); // Ajouter un délai progressif
+            });
+        }
+
+        // Appeler la fonction d'animation lorsque la page est chargée
+        window.addEventListener('load', animateParagraphs);
+    </script>
+</body>
+
+</html>
